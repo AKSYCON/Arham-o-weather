@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(38, 255, 0);
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.564);
+    width: 400px;
+    font-family: 'Creepster', cursive;
+    height: 100vh;
+    transition: transform 0.6s ease-in-out;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav img:hover{
+    cursor:zoom-in;
+    opacity: 0.4;
+    transition-duration: 0.4s;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 27px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(38, 255, 0);
+}
+.sidebar nav li a:hover{
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    color: #fff;
+    text-shadow: #FC0 1px 0 10px;
+}
+/* .main{
+    width: 88vw;
+} */
+
+.side_ham{
+    position: absolute;
+    left:17px;
+    cursor: pointer;
+}
+.sidebar_go{
+    transform: translate(-490px,0);
+    position: absolute;
+}
+.hamm{
+    margin-top: 12px;
+    width: 30px;
+    background-color: rgb(38, 255, 0);
+    position:fixed;
+}
+.hamm:hover{
+    background-color: white;
+    text-shadow: #FC0 1px 0 10px;
+    transition-duration: 0.4s;
+    cursor: grab;
+}
+.crosss{
+    margin-left: 355px;
+    height: 27px;
+    margin-top: 19px;
+    background-color: rgb(38, 255, 0);
+    width: 23px;
+    padding: 3px;
+    position: fixed;
+}
+.crosss:hover{
+    background-color: white;
+    text-shadow: #FC0 1px 0 10px;
+    transition-duration: 0.4s;
+    cursor: grab;
+}
+.hd{
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+}
+.hd h1 u:hover{
+    color:white;
+    text-shadow: #FC0 1px 0 10px;
+    transition-duration: 0.4s;
+    cursor: grab;
+}
+.foter{
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.abt{
+    display: flex;
+    margin: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+.abt h1,h2,p{
+    padding: 15px 0;
+}
+.abt h1{
+    font-size: 70px;
+    font-family: 'Creepster', cursive;
+    
+}
+.abt h1:hover{
+    color:white;
+    text-shadow: #FC0 1px 0 10px;
+    transition-duration: 0.4s;
+    cursor: grab;
+}
+.abt h2{
+    font-size: 45px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.abt p{
+    font-size: 30px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.srh{
+    display: flex;
+    margin: 100px 500px;
+    padding: 0 150px;
+    flex-direction: column;
+    align-items: center;
+}
+.srh h1,h2,p{
+    padding: 15px 0;
+}
+.srh h1{
+    font-size: 70px;
+    font-family: 'Creepster', cursive;
+}
+.srh h1:hover{
+    color:white;
+    text-shadow: #FC0 1px 0 10px;
+    transition-duration: 0.4s;
+    cursor: grab;
+}
+.srh h2{
+    font-size: 55px;
+    font-family: 'Creepster', cursive;
+}
+.search{
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    flex-direction: column;
+}
+.search input{
+    height: 50px;
+    font-size: 24px;
+    border: 2px solid rgb(38, 255, 0);
+}
+.btn{
+    font-family: 'Creepster', cursive;
+    margin: 45px;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: rgb(38, 255, 0);
+    font-size: 30px;
+    border: 2px solid rgb(38, 255, 0);
+    border-radius: 50px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: red;
+    border:2px solid rgba(0, 0, 0, 0.97);
+    color:black;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+.footer{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.containeer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.containeer h2{
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+.containeer h2:hover{
+    opacity: 0.3;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.row{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-title{
+    text-align: center;
+    margin: 5px;
+    font-size: 40px;
+}
+.my-0{
+    text-align: center;
+    margin:34px;
+    font-size: 40px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 30px;
+    background-color: rgb(38, 255, 0);
+    color: black;
+}
+.my-0:hover{
+    background-color: black;
+    color:rgb(38, 255, 0);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.list-unstyled{
+    list-style: none;
+    text-align: center;
+}
+.list-unstyled li{
+    font-size: 30px;
+}
+.display-6{
+    margin: 10px 0;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+}
+.table-responsive{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.card-body{
+    padding: 12px;
+    border: 2px solid rgb(38, 255, 0);;
+    border-radius: 45px;
+    margin-left:10px;
+    margin-right: 20px;
+}
+.cont{
+    margin: 200px 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont h1{
+    font-size: 70px;
+    font-family: 'Creepster', cursive;
+}
+.cont h1:hover{
+    color:white;
+    text-shadow: #FC0 1px 0 10px;
+    transition-duration: 0.4s;
+    cursor: grab;
+}
+.cont h3{
+    font-family: 'Patrick Hand SC', cursive;
+    margin: 15px 0;
+    font-size: 35px;
+}
